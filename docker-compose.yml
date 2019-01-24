@@ -16,3 +16,4 @@ services:
     - ARK_HTTPS_PROXY=false
     - ARK_REGISTRY=/data/dasch_ark_registry.ini
     - ARK_GITHUB_SECRET=abcdefg
+    command: ["-s"]
