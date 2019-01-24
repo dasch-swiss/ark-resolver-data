@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+
+  ark:
+    image: dhlabbasel/ark-resolver:latest
+    ports:
+      - "3336:3336"
+    volumes:
+      - ${PWD}/data/dasch_ark_registry.ini:/data/dasch_ark_registry.ini
+    environment:
+    - ARK_EXTERNAL_HOSTE=0.0.0.0
+    - ARK_INTERNAL_HOST=0.0.0.0
+    - ARK_INTERNAL_PORT=3336
+    - ARK_NAAN=72163
+    - ARK_HTTPS_PROXY=false
+    - ARK_REGISTRY=/data/dasch_ark_registry.ini
+    - ARK_GITHUB_SECRET=abcdefg

@@ -1,0 +1,19 @@
+---
+# Every test file has one or more tests...
+test_name: Resolve 0001 project
+
+# ...and each test has one or more stages (e.g. an HTTP request)
+stages:
+  - name: Call resolver
+
+    # Define the request to be made...
+    request:
+      url: http://0000:3336/ark:/72163/1/0001/cmfk1DMHRBiR4=_6HXpEFAn
+      method: GET
+
+    # ...and the expected response code and body
+    # redirect_query_params: http://0.0.0.0:3333/v2/resources/http%3A%2F%2Frdfh.ch%2F0001%2Fcmfk1DMHRBiR4-_6HXpEFA
+    response:
+      status_code: 302
+      headers:
+        location: http://0.0.0.0:3333/v2/resources/http%3A%2F%2Frdfh.ch%2F0001%2Fcmfk1DMHRBiR4-_6HXpEF
