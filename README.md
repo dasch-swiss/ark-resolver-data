@@ -10,8 +10,8 @@ Create a new branch and do the following:
 1. Add the new project to the `data/shortcodes.csv` file and
    assigning it a free project shortcode.
 
-2. Add the new shortcode to the `data/dasch_ark_registry.ini` file, following
-   existing entries.
+2. Add the new shortcode to the `data/dasch_ark_registry.ini` file.
+   See existing entries for guidance or see https://github.com/dhlab-basel/ark-resolver.
 
 3. Add a new test to the `tests/` directory with the name `test_shortcode.tavern.yaml`.
    See existing tests for guidance.
