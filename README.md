@@ -3,15 +3,20 @@
 This repository holds data for the DaSCH Ark Resolver service running
 at https://ark.dasch.swiss.
 
-## Add new project
+## How to add a new project?
 
-1. Add the new project to the `data/shortcodes.md` file and
+Create a new branch and do the following:
+
+1. Add the new project to the `data/shortcodes.csv` file and
    assigning it a free project shortcode.
 
 2. Add the new shortcode to the `data/dasch_ark_registry.ini` file, following
    existing entries.
 
-3. Add a new test to the `tests/` directory with the name `shortcode_test.tavern.yaml`.
+3. Add a new test to the `tests/` directory with the name `test_shortcode.tavern.yaml`.
+   See existing tests for guidance.
+
+4. Create a new PR.
 
 ## Requirements
 
