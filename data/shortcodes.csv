@@ -1,0 +1,60 @@
+shortcode,shortname,longname,OLD SALSAH ID
+Default range - 0000 - 00FF,,,
+0000,,reserved for default shared ontologies project,
+FFFF,system,reserved for default system project,
+0001,anything,,
+00FF,images,demo images ontology,
+,,,
+,,,
+Lausanne range - 0100 to 07FF,,,
+0101,parole-religieuse,Embarras de la parole religieuse,
+0103,theatre-societe,Theatre de societe,
+0106,drawings-gods,Dessi ns de Dieux,
+0107,stardom,Personnage et vedettariat,
+0108,fabula,Atelier de théorie littéraire de Fabula,
+0110,h-steiner,Hans Eugen Steiner,
+0111,reforme-geneve,"Côté chaire, côté rue: la Réform	e à Genève, 1517-1617",
+0112,roud-oeuvres,Oeuvr es complètes de Gustave Roud,
+0113,lumieres lausanne,Lumières.Lausanne,
+0114,elites-cio,Les membres du CIO de 1894 à 1972 - prosopographie,
+,,,
+,,,
+Basel range - 0800 to 08FF,,,
+0801,beol,,
+0802,-,,
+0803,incunabula,Bilderfolgen Basler Frühdrucke,1
+0804,dokubib,Bilddatenbank Bibliothek St. Moritz,8
+0805,ubkvp,University of Basel Kings Valley Project,
+0806,lhtt,Living Histories of Theban Tombs,
+0807,mls,Musikalisches Lexikon der Schweiz,
+0808,terlag,Lager des Territorialdienstes 1942-1945,
+,lager,Lager des Territorialdienstes 1942-1945,35
+0809,ecodices,e-codices,2
+080A,pharch,Photo Archive,7
+080B,gast,Gast,9
+080C,SGV_oldproject,alte Bilddatenbank SGV,10
+080D,sgv,Bilddatenbank der Schweizerischen Gesellschaft für Volkskunde,18
+080E,digi-archives,Digi-Archives Saint-Maurice,30
+080F,kuhaba,Fotosammlung der Kunsthalle Basel,12
+0810,DaSCH,Data and Service Center for the Humanities,13
+0811,LIMC,Lexicon Iconographicum Mythlogiae Classicae,14
+0812,elib,e-lib.ch,15
+0813,heidelberg,heidelberg,16
+0814,postcards,Postkarten Russland,17
+0815,BMF,Bruno Manser Fonds,19
+0816,wackernagel,Rudolf Wackernagel,20
+0817,travis,trAVis,21
+0818,vitrails,Inventaires des vitraux,22
+0819,Parzival,Parzival,23
+081A,bosnienfoto,Kriegsfotografie aus Bosnien 1992-1995,24
+081B,dhlab-web,Digital Humanities Lab,25
+081C,smp,SALSAH Movie Player,26
+081D,delille,Reconstruire Delille,27
+081E,HdM,Hôtel de Musique Bern,28
+081F,RTI,TestRTIProj,29
+0820,litfeuilleton,Das Literarische Feuilleton,31
+0821,kindia,Kinetische Dias,32
+0822,TEST,TEST,33
+0823,rel-lu,Religionsvielfalt im Kanton Luzern,34
+0824,sgv-film,Filmdatenbank der Schweizerischen Gesellschaft für Volkskunde,36
+08AE,webern,Anton Webern Gesamtausgabe,6
