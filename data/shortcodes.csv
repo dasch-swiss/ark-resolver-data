@@ -34,10 +34,10 @@ Basel range - 0800 to 08FF,,,
 080B,gast,Gast,9
 080C,SGV_oldproject,alte Bilddatenbank SGV,10
 080D,sgv,Bilddatenbank der Schweizerischen Gesellschaft für Volkskunde,18
-080E,digi-archives,Digi-Archives Saint-Maurice,30
+080E,LIMC,Lexicon Iconographicum Mythlogiae Classicae,14
 080F,kuhaba,Fotosammlung der Kunsthalle Basel,12
 0810,DaSCH,Data and Service Center for the Humanities,13
-0811,LIMC,Lexicon Iconographicum Mythlogiae Classicae,14
+0811,digi-archives,Digi-Archives Saint-Maurice,30
 0812,elib,e-lib.ch,15
 0813,heidelberg,heidelberg,16
 0814,postcards,Postkarten Russland,17

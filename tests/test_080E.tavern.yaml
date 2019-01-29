@@ -1,0 +1,18 @@
+---
+# Every test file has one or more tests...
+test_name: Resolve 080E project
+
+# ...and each test has one or more stages (e.g. an HTTP request)
+stages:
+  - name: Call resolver
+
+    # Define the request to be made...
+    request:
+      url: http://0.0.0.0:3336/ark:/72163/080e-76bb2132d30d6-0.2019129
+      method: GET
+
+    # ...and the expected response code and body
+    response:
+      status_code: 302
+      headers:
+        location: http://data.dasch.swiss/resources/2126045?citdate=20190129
