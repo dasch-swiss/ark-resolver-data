@@ -15,4 +15,4 @@ stages:
     response:
       status_code: 302
       headers:
-        location: http://data.dasch.swiss/resources/2126045?citdate=20190129
+        location: http://weblimc.org/monument/2126045?citdate=20190129
