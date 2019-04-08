@@ -8,7 +8,7 @@ stages:
 
     # Define the request to be made...
     request:
-      url: http://0.0.0.0:3336/ark:/72163/1/0113/cmfk1DMHRBiR4=_6HXpEFAn
+      url: http://0.0.0.0:3336/ark:/72163/1/0113/AIae47_ST=q6uanBmib0Wwq
       method: GET
 
     # ...and the expected response code and body
@@ -16,4 +16,4 @@ stages:
     response:
       status_code: 302
       headers:
-        location: http://junipero.unil.ch:10080/resources/http%3A%2F%2Frdfh.ch%2F0113%2Fcmfk1DMHRBiR4-_6HXpEFA
+        location: http://junipero.unil.ch:10080/resources/http%253A%252F%252Frdfh.ch%252F0113%252FAIae47_ST-q6uanBmib0Ww
