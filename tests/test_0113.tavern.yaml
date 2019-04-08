@@ -16,5 +16,5 @@ stages:
     response:
       status_code: 302
       headers:
-        # location: http://junipero.unil.ch:10080/resources/http%253A%252F%252Frdfh.ch%252F0113%252FAIae47_ST-q6uanBmib0Ww
-        location: http://junipero.unil.ch:10080/publications/trouvailles/http%253A%252F%252Frdfh.ch%252F0113%252FAIae47_ST-q6uanBmib0Ww
+        location: http://junipero.unil.ch:10080/resources/http%3A%2F%2Frdfh.ch%2F0113%2FAIae47_ST-q6uanBmib0Ww
+ 
