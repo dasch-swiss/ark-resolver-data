@@ -1,6 +1,6 @@
 ---
 # Every test file has one or more tests...
-test_name: Resolve 0108 project
+test_name: Resolve 0108 project - fabula
 
 # ...and each test has one or more stages (e.g. an HTTP request)
 stages:
@@ -16,4 +16,4 @@ stages:
     response:
       status_code: 302
       headers:
-        location: http://0.0.0.0:3333/v2/resources/http%3A%2F%2Frdfh.ch%2F0108%2Fcmfk1DMHRBiR4-_6HXpEFA
+        location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0108%2Fcmfk1DMHRBiR4-_6HXpEFA
