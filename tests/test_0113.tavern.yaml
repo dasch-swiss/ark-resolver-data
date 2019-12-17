@@ -22,11 +22,11 @@ stages:
 
     # Define the request to be made...
     request:
-      url: http://0.0.0.0:3336/ark:/72163/1/0113/=2snwE4TSvyzoG7=m=m9xAa.20191217T1426000Z
+      url: http://0.0.0.0:3336/ark:/72163/1/0113/AIae47_ST=q6uanBmib0Wwq.20191217T1426000Z
       method: GET
 
     # ...and the expected response code and body
     response:
       status_code: 302
       headers:
-        location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0113%2F-2snwE4TSvyzoG7-m-m9xA?version=20191217T1426000Z
+        location: http://junipero.unil.ch:13333/resource/http%3A%2F%2Frdfh.ch%2F0113%2FAIae47_ST-q6uanBmib0Ww?version=20191217T1426000Z

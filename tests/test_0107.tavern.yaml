@@ -8,8 +8,7 @@ stages:
 
     # Define the request to be made...
     request:
-      url: http://0.0.0.0:3336/ark:/72163/1/0107/cmfk1DMHRBiR4=_6HXpEFAn
-      url: http://0.0.0.0:3336/ark:/72163/1/0107/=fAaoABiQGaLpvfagStamgy.20191217T141249000Z
+      url: http://0.0.0.0:3336/ark:/72163/1/0107/=fAaoABiQGaLpvfagStamgy
       method: GET
 
     # ...and the expected response code and body
