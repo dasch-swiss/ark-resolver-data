@@ -12,7 +12,6 @@ stages:
       method: GET
 
     # ...and the expected response code and body
-    # redirect_query_params: http://0.0.0.0:3333/v2/resources/http%3A%2F%2Frdfh.ch%2F0001%2Fcmfk1DMHRBiR4-_6HXpEFA
     response:
       status_code: 302
       headers:
@@ -29,4 +28,4 @@ stages:
     response:
       status_code: 302
       headers:
-        location: http://junipero.unil.ch:13333/resource/http%3A%2F%2Frdfh.ch%2F0113%2FAIae47_ST-q6uanBmib0Ww?version=20191217T1426000Z
+        location: http://junipero.unil.ch:10080/resources/http%3A%2F%2Frdfh.ch%2F0113%2FAIae47_ST-q6uanBmib0Ww
