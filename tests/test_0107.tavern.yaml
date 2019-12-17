@@ -9,6 +9,7 @@ stages:
     # Define the request to be made...
     request:
       url: http://0.0.0.0:3336/ark:/72163/1/0107/cmfk1DMHRBiR4=_6HXpEFAn
+      url: http://0.0.0.0:3336/ark:/72163/1/0107/=fAaoABiQGaLpvfagStamgy.20191217T141249000Z
       method: GET
 
     # ...and the expected response code and body
@@ -16,4 +17,17 @@ stages:
     response:
       status_code: 302
       headers:
-        location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0107%2Fcmfk1DMHRBiR4-_6HXpEFA
+        location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0107%2F-fAaoABiQGaLpvfagStamg
+
+  - name: Call resolver with a versionned resource
+
+    # Define the request to be made...
+    request:
+      url: http://0.0.0.0:3336/ark:/72163/1/0107/=fAaoABiQGaLpvfagStamgy.20191217T141249000Z
+      method: GET
+
+    # ...and the expected response code and body
+    response:
+      status_code: 302
+      headers:
+        location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0107%2F-fAaoABiQGaLpvfagStamg?version=20191217T141249000Z
