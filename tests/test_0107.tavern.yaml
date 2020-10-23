@@ -12,13 +12,12 @@ stages:
       method: GET
 
     # ...and the expected response code and body
-    # redirect_query_params: http://0.0.0.0:3333/v2/resources/http%3A%2F%2Frdfh.ch%2F0001%2Fcmfk1DMHRBiR4-_6HXpEFA
     response:
       status_code: 302
       headers:
         location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0107%2F-fAaoABiQGaLpvfagStamg
 
-  - name: Call resolver with a versionned resource
+  - name: Call resolver with a versioned resource
 
     # Define the request to be made...
     request:

@@ -17,7 +17,7 @@ stages:
       headers:
         location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0105%2F-2v7IubeSFWF-rU0G-XmXA
 
-  - name: Call resolver with a versionned resource
+  - name: Call resolver with a versioned resource
 
     # Define the request to be made...
     request:
