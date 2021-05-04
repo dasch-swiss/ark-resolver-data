@@ -1,0 +1,21 @@
+name: CI
+
+on: [push]
+
+jobs:
+  test:
+    name: ARK Resolver Data Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+      - name: Run ARK resolver data unit tests
+        run: |
+          make install
+          make test
