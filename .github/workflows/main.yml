@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   test:
-    name: ARK Resolver Tests
+    name: ARK Resolver Data Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
