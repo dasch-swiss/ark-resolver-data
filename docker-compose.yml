@@ -3,7 +3,7 @@ version: '3'
 services:
 
   ark:
-    image: dhlabbasel/ark-resolver:latest
+    image: daschswiss/ark-resolver:v1.7.0
     ports:
       - "3336:3336"
     volumes:
