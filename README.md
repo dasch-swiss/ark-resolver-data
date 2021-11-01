@@ -16,7 +16,9 @@ Create a branch and do the following:
 
 4. Create a new PR.
 
-## Example project
+## Example project configuration
+
+An example project configuration in the `data/dasch_ark_registry.ini` file looks like this:
 
 ```bash 
 ############################################################################
@@ -31,7 +33,7 @@ Create a branch and do the following:
 [ABCD]
 
 # The hostname to be used in redirect URLs for this project's resources.
-Host: data.dasch.swiss
+Host: admin.dasch.swiss
 
 # The hostname to be used in redirect URL for this project's metadata.
 ProjectHost: project-metadata.dasch.swiss
@@ -44,6 +46,51 @@ UsePhp: true
 
 # true if this project can accept version 0 ARK URLs
 AllowVersion0: true
+```
+
+## Example of ARK redirects
+
+The following ARK of a resource:
+```bash
+http://ark.dasch.swiss/ark:/72163/1/ABCD/t8I=deu9SuajedJ2vys6iAY.20210915T170737243528Z
+```
+interpreted as:
+```bash
+http://ark.dasch.swiss/ark:/72163/1/[$project_id]/[$resource_id]
+```
+is redirected to:
+```bash
+https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%2FABCD%2Ft8I-deu9SuajedJ2vys6iA?version=20210915T170737243528Z
+```
+interpreted as:
+```bash
+https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%[$project_id]%2F[$resource_id]
+```
+
+## Example of the configuration of a custom project ARK redirect pattern
+
+The following example shows how to change the default behavior of project ARK redirects.
+
+An ARK of a project looks like this: `http://ark.dasch.swiss/ark:/72163/1/ABCD` for project with short code `ABCD`. Per
+default, it is redirected to `https://meta.dasch.swiss/projects/ABCD`.
+
+If this behaviour should be changed for a project, either set another host for your project ARK (variable `ProjectHost` 
+in the file data/dasch_ark_registry.ini). For example:
+
+```
+[ABCD]
+Host: admin.dasch.swiss
+ProjectHost: meta.dasch.swiss
+```
+
+This would redirect the ARK `http://ark.dasch.swiss/ark:/72163/1/ABCD` to `https://meta.dasch.swiss/projects/ABCD`.
+So, only the host is changed. Or you can set the variable `DSPProjectRedirectUrl` with your own pattern or a hard coded
+URL. For example:
+
+```
+[ABCD]
+Host: admin.dasch.swiss
+DSPProjectRedirectUrl: http://other/host/my/pattern/$project_ids
 ```
 
 ## Requirements
