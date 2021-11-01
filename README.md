@@ -23,7 +23,8 @@ Create a branch and do the following:
 
 # The project's shortcode (`[...]`) and resources host (`Host`) are mandatory. All other parameters can be left out if 
 # not used. A default value / template is used in this case. Default templates are defined in the top section of 
-# dasch_ark_registry.ini. By setting the parameter in the project's section of the file, the template is overwritten.
+# dasch_ark_registry.ini. By setting the parameter in the project's section of the file, the default value / template is
+# overwritten.
 
 # The project's shortcode
 [ABCD]
