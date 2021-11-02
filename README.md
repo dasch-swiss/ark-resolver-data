@@ -53,7 +53,7 @@ AllowVersion0: true
 Example ARK of a resource with timestamp:
 
 ```bash 
-http://ark.dasch.swiss/ark:/72163/1/082B/0mqGISATQUC7ZWAZKyDcxQZ.20210712T074909165439Z
+http://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR.20210712T074941501291Z
 \_____________________/\___/\____/\/\___/\_____________________/\______________________/
      (replacable)        |     |   |   |              |                    |
            |         ARK Label | DSP-internal    Resource ID        Timestamp (= Version)
@@ -70,19 +70,19 @@ http://ark.dasch.swiss/ark:/72163/1/082B/0mqGISATQUC7ZWAZKyDcxQZ.20210712T074909
 Example ARK of a resource without timestamp (points to resource's latest version):
 
 ```bash
-http://ark.dasch.swiss/ark:/72163/1/082B/0mqGISATQUC7ZWAZKyDcxQZ
+http://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR
 ```
 
 Example ARK of a value with timestamp:
 
 ```bash 
-http://ark.dasch.swiss/ark:/72163/1/082B/0mqGISATQUC7ZWAZKyDcxQZ/JbnJSQ6YSAqRT7vI1Lw9JAy.20210712T074909165439Z
+http://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR/=SSbnPK3Q7WWxzBT1UPpRgo.20210712T074941501291Z
 ```
 
 Example ARK of a value without timestamp (points to value's latest version):
 
 ```bash 
-http://ark.dasch.swiss/ark:/72163/1/082B/0mqGISATQUC7ZWAZKyDcxQZ/JbnJSQ6YSAqRT7vI1Lw9JAy
+http://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR/=SSbnPK3Q7WWxzBT1UPpRgo
 ```
 
 Example ARK of a project with shortcode 082B:
