@@ -48,27 +48,10 @@ UsePhp: true
 AllowVersion0: true
 ```
 
-## Example of an ARK redirect
-
-The following ARK of a resource:
-```bash
-http://ark.dasch.swiss/ark:/72163/1/ABCD/t8I=deu9SuajedJ2vys6iAY.20210915T170737243528Z
-```
-...interpreted as:
-```bash
-http://ark.dasch.swiss/ark:/72163/1/[$project_id]/[$resource_id]
-```
-...is redirected to:
-```bash
-https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%2FABCD%2Ft8I-deu9SuajedJ2vys6iA?version=20210915T170737243528Z
-```
-...interpreted as:
-```bash
-https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%[$project_id]%2F[$resource_id]
-```
-
 ## Examples of ARKs used in DSP
+
 Example ARK of a resource with timestamp:
+
 ```bash 
 http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx.20210915T170737243528Z
 \_____________________/\___/\____/\/\___/\_____________________/\______________________/
@@ -85,11 +68,13 @@ http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx.20210915T170737
 ```
 
 Example ARK of a resource without timestamp (points to resource's latest version):
+
 ```bash
 http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx
 ```
 
 Example ARK of a value with timestamp:
+
 ```bash 
 http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx/8klm4AP=QueJIwININnUhgy.20211102T132511610966Z
 ```
@@ -101,19 +86,40 @@ http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx/8klm4AP=QueJIwI
 ```
 
 Example ARK of a project with shortcode ABCD:
+
 ```bash
 http://ark.dasch.swiss/ark:/72163/1/ABCD
 ```
 
-## Example of the configuration of a custom project ARK redirect pattern
+
+## Example of an ARK redirect in DSP
+
+The following ARK of a resource:
+```bash
+http://ark.dasch.swiss/ark:/72163/1/ABCD/t8I=deu9SuajedJ2vys6iAY.20210915T170737243528Z
+```
+...interpreted as:
+```bash
+http://ark.dasch.swiss/ark:/72163/1/[$project_id]/[$resource_id][$timestamp]
+```
+...is redirected to:
+```bash
+https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%2FABCD%2Ft8I-deu9SuajedJ2vys6iA?version=20210915T170737243528Z
+```
+...interpreted as:
+```bash
+https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%[$project_id]%2F[$resource_id][$version]
+```
+
+## Example of a custom project ARK redirect pattern
 
 The following example shows how to change the default behavior of project ARK redirects.
 
 An ARK of a project looks like this: `http://ark.dasch.swiss/ark:/72163/1/ABCD` for project with short code `ABCD`. Per
-default, it is redirected to `https://meta.dasch.swiss/projects/ABCD` (as defined in data/dasch_ark_registry.ini).
+default, it is redirected to `https://meta.dasch.swiss/projects/ABCD` (as defined in `data/dasch_ark_registry.ini`).
 
 This behavior can be changed for a project by either setting another host for the project ARK (variable `ProjectHost` 
-in the file data/dasch_ark_registry.ini). For example:
+in the file `data/dasch_ark_registry.ini`). For example:
 
 ```
 [ABCD]
@@ -139,11 +145,11 @@ This would redirect the ARK `http://ark.dasch.swiss/ark:/72163/1/ABCD` to `http:
 To install the requirements:
 
 ```bash
-$ pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 To generate the requirements file (requirements.txt), that you commit with the project, do:
 
 ```bash
-$ pip3 freeze > requirements.txt
+pip3 freeze > requirements.txt
 ```
