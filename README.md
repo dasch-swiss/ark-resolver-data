@@ -53,11 +53,11 @@ AllowVersion0: true
 Example ARK of a resource with timestamp:
 
 ```bash 
-http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx.20210915T170737243528Z
+https://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR.20210712T074941501291Z
 \_____________________/\___/\____/\/\___/\_____________________/\______________________/
      (replacable)        |     |   |   |              |                    |
-           |         ARK Label | DSP internal    part of IRI        timestamp (= version)
-           |                   | ARK Version     of the resource    of resource (optional)
+           |         ARK Label | DSP-internal    Resource ID        Timestamp (= Version)
+           |                   | ARK Version                        of Resource (optional)
     Name Mapping               |       |
     Authority Hostport         |    DSP Project
                                |    Shortcode
@@ -70,43 +70,49 @@ http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx.20210915T170737
 Example ARK of a resource without timestamp (points to resource's latest version):
 
 ```bash
-http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx
+https://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR
 ```
 
 Example ARK of a value with timestamp:
 
 ```bash 
-http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx/8klm4AP=QueJIwININnUhgy.20211102T132511610966Z
+https://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR/=SSbnPK3Q7WWxzBT1UPpRgo.20210712T074941501291Z
 ```
 
 Example ARK of a value without timestamp (points to value's latest version):
 
 ```bash 
-http://ark.dasch.swiss/ark:/72163/1/ABCD/uwtxWmbKTZyGcPhCE4A1VAx/8klm4AP=QueJIwININnUhgy
+https://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR/=SSbnPK3Q7WWxzBT1UPpRgo
 ```
 
-Example ARK of a project with shortcode ABCD:
+Example ARK of a project with shortcode 082B:
 
 ```bash
-http://ark.dasch.swiss/ark:/72163/1/ABCD
+https://ark.dasch.swiss/ark:/72163/1/082B
 ```
-
 
 ## Example of an ARK redirect in DSP
 
 The following ARK of a resource:
+
 ```bash
-http://ark.dasch.swiss/ark:/72163/1/ABCD/t8I=deu9SuajedJ2vys6iAY.20210915T170737243528Z
+https://ark.dasch.swiss/ark:/72163/1/082B/0mqGISATQUC7ZWAZKyDcxQZ.20210712T074909165439Z
 ```
+
 ...interpreted as:
+
 ```bash
-http://ark.dasch.swiss/ark:/72163/1/[$project_id]/[$resource_id][$timestamp]
+https://ark.dasch.swiss/ark:/72163/1/[$project_id]/[$resource_id][$timestamp]
 ```
+
 ...is redirected to:
+
 ```bash
-https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%2FABCD%2Ft8I-deu9SuajedJ2vys6iA?version=20210915T170737243528Z
+https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%2F082B%2F0mqGISATQUC7ZWAZKyDcxQ?version=20210712T074909165439Z
 ```
+
 ...interpreted as:
+
 ```bash
 https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%[$project_id]%2F[$resource_id][$version]
 ```
@@ -115,10 +121,10 @@ https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%[$project_id]%2F[$resource
 
 The following example shows how to change the default behavior of project ARK redirects.
 
-An ARK of a project looks like this: `http://ark.dasch.swiss/ark:/72163/1/ABCD` for project with short code `ABCD`. Per
+An ARK of a project looks like this: `https://ark.dasch.swiss/ark:/72163/1/ABCD` for project with short code `ABCD`. Per
 default, it is redirected to `https://meta.dasch.swiss/projects/ABCD` (as defined in `data/dasch_ark_registry.ini`).
 
-This behavior can be changed for a project by either setting another host for the project ARK (variable `ProjectHost` 
+This behavior can be changed for a project by either setting another host for the project ARK (variable `ProjectHost`
 in the file `data/dasch_ark_registry.ini`). For example:
 
 ```
@@ -127,18 +133,18 @@ Host: admin.dasch.swiss
 ProjectHost: meta.dasch.swiss
 ```
 
-This would redirect the ARK `http://ark.dasch.swiss/ark:/72163/1/ABCD` to `https://meta.dasch.swiss/projects/ABCD`.
-So, only the host is changed. 
+This would redirect the ARK `https://ark.dasch.swiss/ark:/72163/1/ABCD` to `https://meta.dasch.swiss/projects/ABCD`. So,
+only the host is changed.
 
 Or you can set the variable `DSPProjectRedirectUrl` with your own pattern or a hard coded URL. For example:
 
 ```
 [ABCD]
 Host: admin.dasch.swiss
-DSPProjectRedirectUrl: http://other/host/my/pattern/$project_ids
+DSPProjectRedirectUrl: https://other/host/my/pattern/$project_ids
 ```
 
-This would redirect the ARK `http://ark.dasch.swiss/ark:/72163/1/ABCD` to `http://other/host/my/pattern/ABCD`.
+This would redirect the ARK `https://ark.dasch.swiss/ark:/72163/1/ABCD` to `https://other/host/my/pattern/ABCD`.
 
 ## Requirements
 
