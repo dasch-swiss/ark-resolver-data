@@ -54,7 +54,7 @@ Example ARK of a resource with timestamp:
 
 ```bash 
 https://ark.dasch.swiss/ark:/72163/1/082B/SQkTPdHdTzq_gqbwj6QR=AR.20210712T074941501291Z
-\_____________________/\___/\____/\/\___/\_____________________/\______________________/
+\_____________________/\___/\____/\/\___/\______________________/\______________________/
      (replacable)        |     |   |   |              |                    |
            |         ARK Label | DSP-internal    Resource ID        Timestamp (= Version)
            |                   | ARK Version                        of Resource (optional)
@@ -102,7 +102,7 @@ https://ark.dasch.swiss/ark:/72163/1/082B/0mqGISATQUC7ZWAZKyDcxQZ.20210712T07490
 ...interpreted as:
 
 ```bash
-https://ark.dasch.swiss/ark:/72163/1/[$project_id]/[$resource_id][$timestamp]
+https://ark.dasch.swiss/ark:/72163/1/[$project_id]/[$resource_id with check digit].[$timestamp]
 ```
 
 ...is redirected to:
@@ -114,7 +114,7 @@ https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%2F082B%2F0mqGISATQUC7ZWAZK
 ...interpreted as:
 
 ```bash
-https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%[$project_id]%2F[$resource_id][$version]
+https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%[$project_id]%2F[$resource_id without check digit]?version=[$timestamp]
 ```
 
 ## Example of a custom project ARK redirect pattern
