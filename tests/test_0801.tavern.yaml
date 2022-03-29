@@ -15,4 +15,4 @@ stages:
     response:
       status_code: 302
       headers:
-        location: http://beol.dasch.swiss/resource/http%3A%2F%2Frdfh.ch%2F0801%2Fcmfk1DMHRBiR4-_6HXpEFA
+        location: https://beol.dasch.swiss/resource/http%3A%2F%2Frdfh.ch%2F0801%2Fcmfk1DMHRBiR4-_6HXpEFA
