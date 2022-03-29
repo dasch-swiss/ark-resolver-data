@@ -15,7 +15,7 @@ stages:
     response:
       status_code: 302
       headers:
-        location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0101%2F-6IqRiuwQHGbHWuy2O8Bfg
+        location: https://admin.ls-prod-server.dasch.swiss/resource/0101/-6IqRiuwQHGbHWuy2O8Bfg
 
   - name: Call resolver with a versioned resource
 
@@ -28,4 +28,4 @@ stages:
     response:
       status_code: 302
       headers:
-        location: http://kv.unil.ch/resource/http%3A%2F%2Frdfh.ch%2F0101%2F-6IqRiuwQHGbHWuy2O8Bfg?version=20191217T111513000Z
+        location: https://admin.ls-prod-server.dasch.swiss/resource/0101/-6IqRiuwQHGbHWuy2O8Bfg?version=20191217T111513000Z
