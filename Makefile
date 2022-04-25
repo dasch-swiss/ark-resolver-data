@@ -10,8 +10,11 @@ install: ## install requirements in local env
 
 .PHONY: test
 test: ## run ark-resolver-data tests inside docker image from local env
+	docker-compose down -v
 	docker-compose up -d
+	@while [ "`docker-compose logs ark | grep -o "Starting worker"`" != "Starting worker" ]; do sleep 3; done;
 	cd tests && py.test --disable-warnings
+	docker-compose down -v
 
 .PHONY: help
 help: ## this help
