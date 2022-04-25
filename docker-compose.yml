@@ -3,13 +3,13 @@ version: '3'
 services:
 
   ark:
-    image: daschswiss/ark-resolver:v1.7.0
+    image: daschswiss/ark-resolver:v1.7.4
     ports:
       - "3336:3336"
     volumes:
       - ${PWD}/data/dasch_ark_registry.ini:/data/dasch_ark_registry.ini
     environment:
-    - ARK_EXTERNAL_HOSTE=0.0.0.0
+    - ARK_EXTERNAL_HOST=0.0.0.0
     - ARK_INTERNAL_HOST=0.0.0.0
     - ARK_INTERNAL_PORT=3336
     - ARK_NAAN=72163
