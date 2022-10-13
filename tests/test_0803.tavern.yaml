@@ -8,11 +8,11 @@ stages:
 
     # Define the request to be made...
     request:
-      url: http://0.0.0.0:3336/ark:/72163/1/0803/751e0b8am
+      url: http://0.0.0.0:3336/ark:/72163/1/0803/1967a9933401n
       method: GET
 
     # ...and the expected response code and body
     response:
       status_code: 302
       headers:
-        location: https://admin.dasch.swiss/resources/1
+        location: https://admin.dasch.swiss/resource/0803/1967a9933401
