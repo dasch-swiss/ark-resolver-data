@@ -103,3 +103,5 @@
 | 0840      | metzger       | Reise- und Rezeptbuch Daniel Metzger                                                                        |               |       |
 | 0841      | hyperhamlet   | HyperHamlet                                                                                                 |               |       |
 | 0842      | holzbaukultur | Schweizer Holzbaukultur                                                                                     |               |       |
+| 0843      | woposs        | A world of possibilities. Modal pathways on the extra-long period: the diachrony of modality in the Latin language |         |       |
+
