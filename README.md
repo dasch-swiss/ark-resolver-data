@@ -6,7 +6,7 @@ This repository holds data for the DaSCH Ark Resolver service running at https:/
 
 Create a branch and do the following:
 
-1. Add the project to the `data/shortcodes.csv` file with its shortcode, shortname, long name and old Salsah ID.
+1. Add the project to the `data/shortcodes.md` file with its shortcode, shortname, long name and old Salsah ID.
 
 2. Add the project's shortcode to the `data/dasch_ark_registry.ini` file (`data/dasch_ark_registry_test.ini` or
    `data/dasch_ark_registry_staging.ini` if you want to add a configuration to test or staging). See example below or
