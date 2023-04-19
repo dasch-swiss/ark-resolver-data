@@ -29,7 +29,7 @@
 | 0116      | medframes            | The Medieval Frame of Monumental Portal Sculpture (Pedestales, Canopies, Niches) : Cultural Transfers and Agency (12th-13th Centuries) |               |       |
 | 0118      | rome-siecles-obscurs | Rome aux siècles "obscurs". Les lumières de la communication visuelle, Ve-XIe siècles                                                  |               |       |
 | 0119      | prethero             | Premiers théâtres romands                                                                                                              |               |       |
-| 0120      | prosepi              | Prendre une position épistémique dans l’interaction. Les marqueurs du savoir, du non-savoir et du doute en français                    |               |       |
+| 0120      | posepi               | Prendre une position épistémique dans l’interaction. Les marqueurs du savoir, du non-savoir et du doute en français                    |               |       |
 | 0121      | societe-savoie       | Société de cour, élites et finances : de l’Hôtel des princes de Savoie à l’État moderne                                                |               |       |
 
 
