@@ -53,7 +53,7 @@
 | 080D      | sgv-film      | Filmdatenbank der Schweizerischen Gesellschaft für Volkskunde                                               |               |       |
 | 080E      | LIMC          | Lexicon Iconographicum Mythlogiae Classicae                                                                 | 14            |       |
 | 080F      | elib          | e-lib.ch                                                                                                    |               |       |
-| 0810      | DaSCH         | Data and Service Center for the Humanities                                                                  |               |       |
+| 0810      | DaSCH         | Swiss National Data and Service Center for the Humanities                                                   |               |       |
 | 0811      | postcards     | Postkarten Russland                                                                                         | 17            |       |
 | 0812      | sgv           | Bilddatenbank der Schweizerischen Gesellschaft für Volkskunde                                               | 18            |       |
 | 0813      | BMF           | Bruno Manser Fonds                                                                                          | 19            |       |
@@ -106,3 +106,4 @@
 | 0842      | holzbaukultur | Schweizer Holzbaukultur                                                                                     |               |       |
 | 0843      | woposs        | A world of possibilities. Modal pathways on the extra-long period: the diachrony of modality in the Latin language |         |       |
 | 0844      | mark16        | MARK16 Manuscripts Data                                                                                     |               |       |
+| 0845      | fagottino     | Fagottini and tenoroons: small-sized bassoons from the 18th and 19th centuries                              |               |       |
