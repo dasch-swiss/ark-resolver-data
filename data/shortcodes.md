@@ -17,6 +17,7 @@
 | 0102      | scenario-tanner      | Le scénario chez Alain Tanner                                                                                                          |               |       |
 | 0103      | theatre-societe      | Theatre de societe                                                                                                                     |               |       |
 | 0105      | drawings-gods        | Dessins de Dieux                                                                                                                       |               |       |
+| 0106      | waldau-cinema        | Cinéma et psychiatrie : les collections Waldau                                                                                         |               |       |
 | 0107      | stardom              | Personnage et vedettariat                                                                                                              |               |       |
 | 0108      | fabula               | Atelier de théorie littéraire de Fabula                                                                                                |               |       |
 | 0109      | dylan                | DYLAN                                                                                                                                  | 16            |       |
