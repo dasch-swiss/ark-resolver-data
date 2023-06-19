@@ -109,3 +109,4 @@
 | 0844      | mark16        | MARK16 Manuscripts Data                                                                                     |               |       |
 | 0845      | digitalagenda | Education and the European Digital Agenda                                                                   |               |       |
 | 0846      | aura-effizienz | Aura und Effizienz. Leistungsorientierte Materialisierung und Spiritualisierung in der Literatur der 1920-30er-Jahre: Emmy Hennings, Marieluise Fleisser, Friedrich Glauser und Bruno Goetz |               |       |
+| 0847      | locusludi     | Locus Ludi: The Cultural Fabric of Play and Games in Classical Antiquity                                    |               |       |
