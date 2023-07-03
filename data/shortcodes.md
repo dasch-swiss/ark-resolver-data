@@ -107,6 +107,7 @@
 | 0842      | holzbaukultur | Schweizer Holzbaukultur                                                                                     |               |       |
 | 0843      | woposs        | A world of possibilities. Modal pathways on the extra-long period: the diachrony of modality in the Latin language |         |       |
 | 0844      | mark16        | MARK16 Manuscripts Data                                                                                     |               |       |
-| 0845      | digitalagenda | Education and the European Digital Agenda                                                                   |               |       |
+| 0845      | fagottino     | Fagottini and tenoroons: small-sized bassoons from the 18th and 19th centuries                              |               |       |
 | 0846      | aura-effizienz | Aura und Effizienz. Leistungsorientierte Materialisierung und Spiritualisierung in der Literatur der 1920-30er-Jahre: Emmy Hennings, Marieluise Fleisser, Friedrich Glauser und Bruno Goetz |               |       |
 | 0847      | locusludi     | Locus Ludi: The Cultural Fabric of Play and Games in Classical Antiquity                                    |               |       |
+| 0848      | digitalagenda  | Education and the European Digital Agenda                                                                  |               |       |
