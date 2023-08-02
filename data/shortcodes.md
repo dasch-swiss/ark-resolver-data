@@ -28,6 +28,7 @@
 | 0114      | elites-cio           | Les membres du CIO de 1894 à 1972 - prosopographie                                                                                     |               |       |
 | 0115      | activites-cs         | Etude des activités de la Cinémathèque suisse entre 1951 et 1981                                                                       |               |       |
 | 0116      | medframes            | The Medieval Frame of Monumental Portal Sculpture (Pedestales, Canopies, Niches) : Cultural Transfers and Agency (12th-13th Centuries) |               |       |
+| 0117      | prom-know            | Promoting Knowledge. The Origins of the Science System and the Making of Professional Structures in European States, 1700-1870     |               |       | 
 | 0118      | rome-siecles-obscurs | Rome aux siècles "obscurs". Les lumières de la communication visuelle, Ve-XIe siècles                                                  |               |       |
 | 0119      | prethero             | Premiers théâtres romands                                                                                                              |               |       |
 | 0120      | posepi               | Prendre une position épistémique dans l’interaction. Les marqueurs du savoir, du non-savoir et du doute en français                    |               |       |
