@@ -71,7 +71,7 @@
 | 081D      | travis        | trAVis                                                                                                      |               |       |
 | 081E      | dhlab-web     | Digital Humanities Lab                                                                                      |               |       |
 | 081F      | litfeuilleton | Das Literarische Feuilleton                                                                                 | 31            |       |
-| 0820      | lhtt          | Living Histories of Theban Tombs                                                                            |               |       |
+| 0820      | lhtt          | Life Histories of Theban Tombs                                                                            |               |       |
 | 0821      | kindia        | Kinetische Dias                                                                                             |               |       |
 | 0822      | rel-lu        | Religionsvielfalt im Kanton Luzern                                                                          |               |       |
 | 0823      | heidelberg    | heidelberg                                                                                                  |               |       |
