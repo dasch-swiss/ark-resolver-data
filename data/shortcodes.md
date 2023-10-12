@@ -112,4 +112,5 @@
 | 0846      | aura-effizienz | Aura und Effizienz. Leistungsorientierte Materialisierung und Spiritualisierung in der Literatur der 1920-30er-Jahre: Emmy Hennings, Marieluise Fleisser, Friedrich Glauser und Bruno Goetz |               |       |
 | 0847      | locusludi     | Locus Ludi: The Cultural Fabric of Play and Games in Classical Antiquity                                    |               |       |
 | 0848      | digitalagenda | Education and the European Digital Agenda                                                                   |               |       |
-| 0849      | globalgeschichte| Globalgeschichtliche Perspektiven im Schweizer Geschichtsunterricht                                       |               |       |
+| 0849      | operative-tv  | Operative TV. Closed Circuit Images from World War II to the Cold War                                       |               |       |
+| 084A      | globalgeschichte| Globalgeschichtliche Perspektiven im Schweizer Geschichtsunterricht                                       |               |       |
