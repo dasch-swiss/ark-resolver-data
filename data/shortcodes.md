@@ -51,7 +51,7 @@
 | 0809      | ecodices      | e-codices                                                                                                   |               |       |
 | 080A      | pharch        | Photo Archive                                                                                               |               |       |
 | 080B      | gast          | Gast                                                                                                        |               |       |
-| 080C      | kuhaba        | Fotosammlung der Kunsthalle Basel                                                                           | 12            |       |
+| 080C      | fotoarchivkunsthalle| Fotosammlung der Kunsthalle Basel                                                                           | 12            |       |
 | 080D      | sgv-film      | Filmdatenbank der Schweizerischen Gesellschaft für Volkskunde                                               |               |       |
 | 080E      | LIMC          | Lexicon Iconographicum Mythlogiae Classicae                                                                 | 14            |       |
 | 080F      | elib          | e-lib.ch                                                                                                    |               |       |
@@ -102,7 +102,7 @@
 | 083C      | ehkka         | Historisch-Kritische Keller-Ausgabe                                                                         |               |       |
 | 083D      | pshp          | Participation in Social Health Protection: An Anthropological Case Study in Tanzania                        |               |       |
 | 083E      | healingarts   | Healing Arts. Representations and Practices of Medical Knowledge in Art and Literature (9th-12th centuries) |               |       |
-| 083F      | cssl          | Stamp Seals of the Southern Levant                                                                          |               |       |
+| 083F      |           |                                                                         |               |       |
 | 0840      | metzger       | Reise- und Rezeptbuch Daniel Metzger                                                                        |               |       |
 | 0841      | hyperhamlet   | HyperHamlet                                                                                                 |               |       |
 | 0842      | holzbaukultur | Schweizer Holzbaukultur                                                                                     |               |       |
