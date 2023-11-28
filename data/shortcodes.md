@@ -114,3 +114,4 @@
 | 0848      | digitalagenda | Education and the European Digital Agenda                                                                   |               |       |
 | 0849      | operative-tv  | Operative TV. Closed Circuit Images from World War II to the Cold War                                       |               |       |
 | 084A      | globalgeschichte| Globalgeschichtliche Perspektiven im Schweizer Geschichtsunterricht                                       |               |       |
+| 084B      | udofoscolo    | Ugo Foscolo, Epistolario 1825-1827                                                                          |               |       |
