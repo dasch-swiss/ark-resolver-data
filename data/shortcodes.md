@@ -115,3 +115,4 @@
 | 0849      | operative-tv  | Operative TV. Closed Circuit Images from World War II to the Cold War                                       |               |       |
 | 084A      | globalgeschichte| Globalgeschichtliche Perspektiven im Schweizer Geschichtsunterricht                                       |               |       |
 | 084B      | ugofoscolo    | Ugo Foscolo, Epistolario 1825-1827                                                                          |               |       |
+| 084C      | kirchen-rom   | Book project documenting churches in Rome.                                                                  |               |       |
