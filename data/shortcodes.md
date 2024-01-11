@@ -116,3 +116,4 @@
 | 084A      | globalgeschichte| Globalgeschichtliche Perspektiven im Schweizer Geschichtsunterricht                                       |               |       |
 | 084B      | ugofoscolo    | Ugo Foscolo, Epistolario 1825-1827                                                                          |               |       |
 | 084C      | kirchen-rom   | Book project documenting churches in Rome.                                                                  |               |       |
+| 084D      | gossembrot    | Lesen als soziale Negotiation - Rekonstruktion der Bibliothek von Sigmund Gossembrot (1417–1493             |               |       |
