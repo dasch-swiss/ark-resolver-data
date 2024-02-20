@@ -118,3 +118,4 @@
 | 084C      | kirchen-rom   | Book project documenting churches in Rome.                                                                  |               |       |
 | 084D      | gossembrot    | Lesen als soziale Negotiation - Rekonstruktion der Bibliothek von Sigmund Gossembrot (1417–1493             |               |       |
 | 084E      | rich          | Historische Lernprozesse erforschen                                                                         |               |       |
+| 084F      | as            | Archäologie Schweiz - Archéologie Suisse - Archeologia Svizzera                                             |               |       |
