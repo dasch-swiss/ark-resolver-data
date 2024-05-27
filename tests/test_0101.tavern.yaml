@@ -15,7 +15,7 @@ stages:
     response:
       status_code: 302
       headers:
-        location: https://admin.ls-prod-server.dasch.swiss/resource/0101/-6IqRiuwQHGbHWuy2O8Bfg
+        location: https://app.ls-prod-server.dasch.swiss/resource/0101/-6IqRiuwQHGbHWuy2O8Bfg
 
   - name: Call resolver with a versioned resource
 
@@ -28,4 +28,4 @@ stages:
     response:
       status_code: 302
       headers:
-        location: https://admin.ls-prod-server.dasch.swiss/resource/0101/-6IqRiuwQHGbHWuy2O8Bfg?version=20191217T111513000Z
+        location: https://app.ls-prod-server.dasch.swiss/resource/0101/-6IqRiuwQHGbHWuy2O8Bfg?version=20191217T111513000Z

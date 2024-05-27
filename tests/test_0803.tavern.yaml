@@ -15,4 +15,4 @@ stages:
     response:
       status_code: 302
       headers:
-        location: https://admin.dasch.swiss/resource/0803/1967a9933401
+        location: https://app.dasch.swiss/resource/0803/1967a9933401
