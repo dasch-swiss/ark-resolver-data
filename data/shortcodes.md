@@ -119,4 +119,4 @@
 | 084D      | gossembrot    | Lesen als soziale Negotiation - Rekonstruktion der Bibliothek von Sigmund Gossembrot (1417–1493             |               |       |
 | 084E      | rich          | Historische Lernprozesse erforschen                                                                         |               |       |
 | 084F      | as            | Archäologie Schweiz - Archéologie Suisse - Archeologia Svizzera                                             |               |       |
-| 0850      | martialculture | Martial Culture in Late Medieval Towns                                                                     |               |       |
+| 0850      | martcult      | Martial Culture in Late Medieval Towns                                                                     |               |       |
