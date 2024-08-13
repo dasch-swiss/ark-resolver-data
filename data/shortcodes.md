@@ -97,7 +97,7 @@
 | 0837      | editiones     | e-editiones.ch                                                                                              |               |       |
 | 0838      | igeoarchive   | Bilddatenbank Geoarchäologie (I-GEOARCHive)                                                                 |               |       |
 | 0839      | vicentino     | Vicentino21                                                                                                 |               |       |
-| 083A      | bt            | Beyond the text                                                                                             |               |       |
+| 083A      | btt           | Beyond the text                                                                                             |               |       |
 | 083B      | commode       | Canonicity Obscenity and the Making of Modern Chaucer (COMMode)                                             |               |       |
 | 083C      | ehkka         | Historisch-Kritische Keller-Ausgabe                                                                         |               |       |
 | 083D      | pshp          | Participation in Social Health Protection: An Anthropological Case Study in Tanzania                        |               |       |
@@ -119,5 +119,6 @@
 | 084D      | gossembrot    | Lesen als soziale Negotiation - Rekonstruktion der Bibliothek von Sigmund Gossembrot (1417–1493             |               |       |
 | 084E      | rich          | Historische Lernprozesse erforschen                                                                         |               |       |
 | 084F      | as            | Archäologie Schweiz - Archéologie Suisse - Archeologia Svizzera                                             |               |       |
-| 0850      | martcult      | Martial Culture in Late Medieval Towns                                                                     |               |       |
+| 0850      | martcult      | Martial Culture in Late Medieval Towns                                                                      |               |       |
 | 0851      | asim          | Analogue Still Image Media                                                                                  |               |       |
+| 0852      | stilus        | Mit Stilus, Volumen und Spiegel                                                                             |               |       |
