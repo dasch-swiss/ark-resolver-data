@@ -122,3 +122,4 @@
 | 0850      | martcult      | Martial Culture in Late Medieval Towns                                                                      |               |       |
 | 0851      | asim          | Analogue Still Image Media                                                                                  |               |       |
 | 0852      | stilus        | Mit Stilus, Volumen und Spiegel                                                                             |               |       |
+| 0853      | hipal         | Hieroglyphic Palaeography of the Ptolemaic Temple at Deir el-Medina                                         |               |       |
