@@ -8,11 +8,11 @@ stages:
 
     # Define the request to be made...
     request:
-      url: http://0.0.0.0:3336/ark:/72163/080e-76bb2132d30d6-0.2019129
+      url: http://0.0.0.0:3336/ark:/72163/1/080E/=iFD=q9xVUWzCaM7lDaLpgB
       method: GET
 
     # ...and the expected response code and body
     response:
       status_code: 302
       headers:
-        location: https://weblimc.org/monument/2126045
+        location: https://app.dasch.swiss/resource/080E/-iFD-q9xVUWzCaM7lDaLpg
