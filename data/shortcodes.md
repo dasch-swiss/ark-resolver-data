@@ -128,7 +128,7 @@
 | 0856      | sgb                  | Stadtgeschichte Basel                                        |               |       |
 | 0857      | symblight            | Symbolism of Light in Early Christian Sacred Buildings in the Swiss Alpine Valleys |               |       |
 | 0858      | luminosity           | Luminosity of the East                                       |               |       |
-| 0859      | [free to use]        |                                                              |               |       |
+| 0859      | srg-musik            | Musikförderung über den Äther (Die Kompositionsaufträge der SRG und ihre Wirkungen auf das Schweizer Musikleben (1931-2021))|               |       |
 | 0860      | [free to use]        |                                                              |               |       |
 | 0861      | [free to use]        |                                                              |               |       |
 | 0862      | gotthelf             | Historisch-kritische Gesamtedition der Werke und Briefe von Jeremias Gotthelf (1797-1854) |               |       |
