@@ -16,6 +16,7 @@
 | 0101      | parole-religieuse    | Embarras de la parole religieuse                                                                                                       |               |       |
 | 0102      | scenario-tanner      | Le scénario chez Alain Tanner                                                                                                          |               |       |
 | 0103      | theatre-societe      | Theatre de societe                                                                                                                     |               |       |
+| 0104      | [free to use]        |
 | 0105      | drawings-gods        | Dessins de Dieux                                                                                                                       |               |       |
 | 0106      | waldau-cinema        | Cinéma et psychiatrie : les collections Waldau                                                                                         |               |       |
 | 0107      | stardom              | Personnage et vedettariat                                                                                                              |               |       |
@@ -41,7 +42,7 @@
 | shortcode | shortname            | longname                                                                                                                                                                                    | old Salsah ID | notes |
 | --------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
 | 0801      | beol                 |                                                                                                                                                                                             |               |       |
-| 0802      |                      |                                                                                                                                                                                             |               |       |
+| 0802      | [free to use]        |                                                                                                                                                                                             |               |       |
 | 0803      | incunabula           | Bilderfolgen Basler Frühdrucke                                                                                                                                                              | 3             |       |
 | 0804      | dokubib              | Bilddatenbank Bibliothek St. Moritz                                                                                                                                                         | 8             |       |
 | 0805      | ubkvp                | University of Basel Kings Valley Project                                                                                                                                                    |               |       |
@@ -102,7 +103,7 @@
 | 083C      | ehkka                | Historisch-Kritische Keller-Ausgabe                                                                                                                                                         |               |       |
 | 083D      | pshp                 | Participation in Social Health Protection: An Anthropological Case Study in Tanzania                                                                                                        |               |       |
 | 083E      | healingarts          | Healing Arts. Representations and Practices of Medical Knowledge in Art and Literature (9th-12th centuries)                                                                                 |               |       |
-| 083F      |                      |                                                                                                                                                                                             |               |       |
+| 083F      | cssl                 | Stamp Seals from the Southern Levant: A Multi-faceted Prism for Studying Entangled Histories in an Interdisciplinary Perspective                                                            |               |       |
 | 0840      | metzger              | Reise- und Rezeptbuch Daniel Metzger                                                                                                                                                        |               |       |
 | 0841      | hyperhamlet          | HyperHamlet                                                                                                                                                                                 |               |       |
 | 0842      | holzbaukultur        | Schweizer Holzbaukultur                                                                                                                                                                     |               |       |
@@ -128,7 +129,13 @@
 | 0856      | sgb                  | Stadtgeschichte Basel                                                                                                                                                                       |               |       |
 | 0857      | symblight            | Symbolism of Light in Early Christian Sacred Buildings in the Swiss Alpine Valleys                                                                                                          |               |       |
 | 0858      | luminosity           | Luminosity of the East                                                                                                                                                                      |               |       |
-| 0859      | zhdk-smre            | Musikförderung über den Äther (Die Kompositionsaufträge der SRG und ihre Wirkungen auf das Schweizer Musikleben (1931-2021))                                                               |               |       |
+| 0859      | zhdk-smre            | Musikförderung über den Äther (Die Kompositionsaufträge der SRG und ihre Wirkungen auf das Schweizer Musikleben (1931-2021))                                                                |               |       |
+| 085A      | atlasdisciplines     | Interactive Historical Atlas of the Disciplines                                                                                                                                             |               |       |
+| 085B      | [free to use]        | 
+| 085C      | [free to use]        | 
+| 085D      | [free to use]        | 
+| 085E      | [free to use]        | 
+| 085F      | [free to use]        | 
 | 0860      | texturessacredscript | Textures of Sacred Scripture                                                                                                                                                                |               |       |
 | 0861      | [free to use]        |                                                                                                                                                                                             |               |       |
 | 0862      | gotthelf             | Historisch-kritische Gesamtedition der Werke und Briefe von Jeremias Gotthelf (1797-1854)                                                                                                   |               |       |
