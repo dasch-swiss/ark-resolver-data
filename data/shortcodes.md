@@ -129,9 +129,9 @@
 | 0856      | sgb                  | Stadtgeschichte Basel                                                                                                                                                                       |               |       |
 | 0857      | symblight            | Symbolism of Light in Early Christian Sacred Buildings in the Swiss Alpine Valleys                                                                                                          |               |       |
 | 0858      | luminosity           | Luminosity of the East                                                                                                                                                                      |               |       |
-| 0859      | zhdk-smre            | Musikförderung über den Äther (Die Kompositionsaufträge der SRG und ihre Wirkungen auf das Schweizer Musikleben (1931-2021))                                                                |               |       |
+| 0859      | zhdk-smre            | Musikförderung über den Äther (Die Kompositionsaufträge der SRG und ihre Wirkungen auf das Schweizer Musikleben (1931-2021))                                                               |               |       |
 | 085A      | atlasdisciplines     | Interactive Historical Atlas of the Disciplines                                                                                                                                             |               |       |
-| 085B      | [free to use]        | 
+| 085B      | francavilla          | Francavilla Marittima                                                                                                                                                                       |               |       |
 | 085C      | [free to use]        | 
 | 085D      | [free to use]        | 
 | 085E      | [free to use]        | 
