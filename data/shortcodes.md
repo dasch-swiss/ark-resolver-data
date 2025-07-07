@@ -132,7 +132,7 @@
 | 0859      | zhdk-smre            | Musikförderung über den Äther (Die Kompositionsaufträge der SRG und ihre Wirkungen auf das Schweizer Musikleben (1931-2021))                                                              |               |       |
 | 085A      | atlasdisciplines     | Interactive Historical Atlas of the Disciplines                                                                                                                                             |               |       |
 | 085B      | francavilla          | Francavilla Marittima                                                                                                                                                                       |               |       |
-| 085C      | [free to use]        | 
+| 085C      | wiborada             | Edition Wiborada-Viten                                                                                                                                                                      |               |       |
 | 085D      | [free to use]        | 
 | 085E      | [free to use]        | 
 | 085F      | [free to use]        | 
