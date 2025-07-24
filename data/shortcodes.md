@@ -134,7 +134,7 @@
 | 085B      | francavilla          | Francavilla Marittima                                                                                                                                                                       |               |       |
 | 085C      | wiborada             | Edition Wiborada-Viten                                                                                                                                                                      |               |       |
 | 085D      | beach                | The Beach in the Long Twentieth Century
-| 085E      | [free to use]        | 
+| 085E      | hamidi               | Tall al-Hamidiya                                                                                                                                                                            |      
 | 085F      | [free to use]        | 
 | 0860      | texturessacredscript | Textures of Sacred Scripture                                                                                                                                                                |               |       |
 | 0861      | proto4diged          | Prototyping Workflows for Digital Editions                                                                                                                                                  |               |       |
