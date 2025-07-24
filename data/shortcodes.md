@@ -133,7 +133,7 @@
 | 085A      | atlasdisciplines     | Interactive Historical Atlas of the Disciplines                                                                                                                                             |               |       |
 | 085B      | francavilla          | Francavilla Marittima                                                                                                                                                                       |               |       |
 | 085C      | wiborada             | Edition Wiborada-Viten                                                                                                                                                                      |               |       |
-| 085D      | [free to use]        | 
+| 085D      | beach                | The Beach in the Long Twentieth Century
 | 085E      | [free to use]        | 
 | 085F      | [free to use]        | 
 | 0860      | texturessacredscript | Textures of Sacred Scripture                                                                                                                                                                |               |       |
