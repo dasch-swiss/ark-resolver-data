@@ -20,7 +20,7 @@
 | 0105      | drawings-gods        | Dessins de Dieux                                                                                                                       |               |       |
 | 0106      | waldau-cinema        | Cinéma et psychiatrie : les collections Waldau                                                                                         |               |       |
 | 0107      | stardom              | Personnage et vedettariat                                                                                                              |               |       |
-| 0108      | fabula               | Atelier de théorie littéraire de Fabula                                                                                                |               |       |
+| 0108      | campane-ticino       | Le campane del Canton Ticino: studio di un patrimonio materiale e immateriale                                                          |               |       |
 | 0109      | dylan                | DYLAN                                                                                                                                  | 16            |       |
 | 0110      | h-steiner            | Hans Eugen Steiner                                                                                                                     |               |       |
 | 0111      | reforme-geneve       | Côté chaire, côté rue : la Réforme à Genève, 1517-1617                                                                                 |               |       |
