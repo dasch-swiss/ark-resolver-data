@@ -42,7 +42,8 @@
 | shortcode | shortname            | longname                                                                                                                                                                                    | old Salsah ID | notes |
 | --------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
 | 0801      | beol                 |                                                                                                                                                                                             |               |       |
-| 0802      | [free to use]        |                                                                                                                                                                                             |               |       |
+| 0802      | playground           | DSP Playground
+|               |       |
 | 0803      | incunabula           | Bilderfolgen Basler Frühdrucke                                                                                                                                                              | 3             |       |
 | 0804      | dokubib              | Bilddatenbank Bibliothek St. Moritz                                                                                                                                                         | 8             |       |
 | 0805      | ubkvp                | University of Basel Kings Valley Project                                                                                                                                                    |               |       |
@@ -139,4 +140,5 @@
 | 0860      | texturessacredscript | Textures of Sacred Scripture                                                                                                                                                                |               |       |
 | 0861      | proto4diged          | Prototyping Workflows for Digital Editions                                                                                                                                                  |               |       |
 | 0862      | gotthelf             | Historisch-kritische Gesamtedition der Werke und Briefe von Jeremias Gotthelf (1797-1854)                                                                                                   |               |       |
-| 0863      | samaria-ivories      | The Electronic Catalogue of the Samaria Ivory Artifacts and Related Material                                                                                                                         |               |       |      
+| 0863      | samaria-ivories      | The Electronic Catalogue of the Samaria Ivory Artifacts and Related Material                                                                                                                |               |       |      
+| 0864      | psi                  | Paul Scherrer Institute
