@@ -40,7 +40,7 @@
 ## Basel range - 0800 to 08FF
 
 | shortcode | shortname            | longname                                                                                                                                                                                    | old Salsah ID | notes |
-| --------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
+|-----------|----------------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
 | 0801      | beol                 |                                                                                                                                                                                             |               |       |
 | 0802      | [free to use]        |                                                                                                                                                                                             |               |       |
 | 0803      | incunabula           | Bilderfolgen Basler Frühdrucke                                                                                                                                                              | 3             |       |
@@ -139,4 +139,5 @@
 | 0860      | texturessacredscript | Textures of Sacred Scripture                                                                                                                                                                |               |       |
 | 0861      | proto4diged          | Prototyping Workflows for Digital Editions                                                                                                                                                  |               |       |
 | 0862      | gotthelf             | Historisch-kritische Gesamtedition der Werke und Briefe von Jeremias Gotthelf (1797-1854)                                                                                                   |               |       |
-| 0863      | samaria-ivories      | The Electronic Catalogue of the Samaria Ivory Artifacts and Related Material                                                                                                                         |               |       |      
+| 0863      | samaria-ivories      | The Electronic Catalogue of the Samaria Ivory Artifacts and Related Material                                                                                                                |               |       |      
+| 0864      | imagochristi         | Imagining the Life of Christ: Affective Devotion and Vernacular Audience in Late Medieval Italy                                                                                             |               |       |      
