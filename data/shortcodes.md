@@ -145,5 +145,5 @@
 | 0866      | nietzsche-me         | Der späte Nietzsche. Digitale Manuskriptedition                                                                                                                                             |               |       |
 | 0867      | nietzsche-dm         | Der späte Nietzsche. Digitale Edition der Druckdokumente                                                                                                                                    |               |       |
 | 0868      | solec                | Canon of solar eclipses from 2501 BCE to 1000 CE                                                                                                                                            |               |       |
-| 0869      | moiun                | Moi, un Afropéen                                                                                                                                                                             |               |       |
+| 0869      | glaubenmachenlassen  | Glauben, Machen, Lassen                                                                                                                                                                     |               |       |
 
