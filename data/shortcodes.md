@@ -146,4 +146,5 @@
 | 0867      | nietzsche-dm         | Der späte Nietzsche. Digitale Edition der Druckdokumente                                                                                                                                    |               |       |
 | 0868      | solec                | Canon of solar eclipses from 2501 BCE to 1000 CE                                                                                                                                            |               |       |
 | 0869      | glaubenmachenlassen  | Glauben, Machen, Lassen                                                                                                                                                                     |               |       |
+| 086A      | mssl                 | Mapping the Scriptures in Western Sephardi Literature                                                                                                                                       |               |       |
 
