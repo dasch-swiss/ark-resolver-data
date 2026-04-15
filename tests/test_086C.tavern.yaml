@@ -1,0 +1,18 @@
+---
+# Every test file has one or more tests...
+test_name: Resolve 086C project
+
+# ...and each test has one or more stages (e.g. an HTTP request)
+stages:
+  - name: Call resolver
+
+    # Define the request to be made...
+    request:
+      url: http://0.0.0.0:3336/ark:/72163/1/086C
+      method: GET
+
+    # ...and the expected response code and body
+    response:
+      status_code: 302
+      headers:
+        location: https://meta.dasch.swiss/projects/086C
