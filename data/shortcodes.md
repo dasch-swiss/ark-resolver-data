@@ -147,4 +147,6 @@
 | 0868      | solec                | Canon of solar eclipses from 2501 BCE to 1000 CE                                                                                                                                            |               |       |
 | 0869      | glaubenmachenlassen  | Glauben, Machen, Lassen                                                                                                                                                                     |               |       |
 | 086A      | mssl                 | Mapping the Scriptures in Western Sephardi Literature                                                                                                                                       |               |       |
+| 086B      | timss                | Schweizerische TIMSS-Videostudie                                                                                                                                                            |               |       |
+| 086C      | pythagoras           | Schweizerisch-deutsche Videostudie im Bereich Mathematikunterricht zu den Gegenständen „Satz des Pythagoras" und „mathematische Textaufgaben"                                               |               |       |
 
