@@ -149,4 +149,4 @@
 | 086A      | mssl                 | Mapping the Scriptures in Western Sephardi Literature                                                                                                                                       |               |       |
 | 086B      | timss                | Schweizerische TIMSS-Videostudie                                                                                                                                                            |               |       |
 | 086C      | pythagoras           | Schweizerisch-deutsche Videostudie im Bereich Mathematikunterricht zu den Gegenständen „Satz des Pythagoras" und „mathematische Textaufgaben"                                               |               |       |
-
+| 086D      | avisblatt            | Märkte auf Papier: Das Basler Avisblatt 1729–1844                                                                                                                                           |               |       |
