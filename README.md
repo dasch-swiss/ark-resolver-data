@@ -122,7 +122,7 @@ https://admin.dasch.swiss/resource/http:%2F%2Frdfh.ch%[$project_id]%2F[$resource
 The following example shows how to change the default behavior of project ARK redirects.
 
 An ARK of a project looks like this: `https://ark.dasch.swiss/ark:/72163/1/ABCD` for project with short code `ABCD`. Per
-default, it is redirected to `https://meta.dasch.swiss/projects/ABCD` (as defined in `data/dasch_ark_registry.ini`).
+default, it is redirected to `https://repository.dasch.swiss/dpe/projects/ABCD` (as defined in `data/dasch_ark_registry.ini`).
 
 This behavior can be changed for a project by either setting another host for the project ARK (variable `ProjectHost`
 in the file `data/dasch_ark_registry.ini`). For example:
@@ -130,11 +130,11 @@ in the file `data/dasch_ark_registry.ini`). For example:
 ```
 [ABCD]
 Host: admin.dasch.swiss
-ProjectHost: meta.dasch.swiss
+ProjectHost: my-project.example.org
 ```
 
-This would redirect the ARK `https://ark.dasch.swiss/ark:/72163/1/ABCD` to `https://meta.dasch.swiss/projects/ABCD`. So,
-only the host is changed.
+This would redirect the ARK `https://ark.dasch.swiss/ark:/72163/1/ABCD` to `https://my-project.example.org/dpe/projects/ABCD`.
+So, only the host is changed.
 
 Or you can set the variable `DSPProjectRedirectUrl` with your own pattern or a hard coded URL. For example:
 

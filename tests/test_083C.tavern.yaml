@@ -1,0 +1,16 @@
+---
+# Covers the default project ARK redirect (no per-project DSPProjectRedirectUrl
+# or ProjectHost override) — shortcode 083C falls through to the DEFAULT section.
+test_name: Resolve 083C project - default redirect to DPE
+
+stages:
+  - name: Call resolver
+
+    request:
+      url: http://0.0.0.0:3336/ark:/72163/1/083C
+      method: GET
+
+    response:
+      status_code: 302
+      headers:
+        location: https://repository.dasch.swiss/dpe/projects/083C
