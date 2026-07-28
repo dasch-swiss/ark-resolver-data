@@ -25,7 +25,7 @@
 | 0110      | h-steiner            | Hans Eugen Steiner                                                                                                                     |               |       |
 | 0111      | reforme-geneve       | Côté chaire, côté rue : la Réforme à Genève, 1517-1617                                                                                 |               |       |
 | 0112      | roud-oeuvres         | Oeuvres complètes de Gustave Roud                                                                                                      |               |       |
-| 0113      | lumieres-lausanne    | Lumières.Lausanne                                                                                                                      | 15            |       |
+| 0113      | womartyr-act         | Women Martyrs in Action: Recreating and Performing Medieval Heroines Today                                                             |               |       |
 | 0114      | elites-cio           | Les membres du CIO de 1894 à 1972 - prosopographie                                                                                     |               |       |
 | 0115      | activites-cs         | Etude des activités de la Cinémathèque suisse entre 1951 et 1981                                                                       |               |       |
 | 0116      | medframes            | The Medieval Frame of Monumental Portal Sculpture (Pedestales, Canopies, Niches) : Cultural Transfers and Agency (12th-13th Centuries) |               |       |
