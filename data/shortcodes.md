@@ -153,5 +153,6 @@
 | 086E      | urban-bio            | Urban Biographies of the Roman and Late Antique Worlds                                                                                                                                      |               |       |
 | 086F      | semper               | Gottfried Semper \| Der Stil \| Digitale Edition                                                                                                                                            |               |       |
 | 0870      | akne                 | Attische Keramik nördlich von Etrurien                                                                                                                                                      |               |       |
-| 0871      | datacant             | Datacant: Database of cantonal case law on data protection
-                                                                                           |               |       |
+| 0871      | datacant             | Datacant: Database of cantonal case law on data protection                                                                                                                                  |               |       |
+| 0872      | desert-networks      | Desert Networks: Into the Eastern Desert of Egypt from the New Kingdom to the Roman period                                                                                                  |               |       |
+|           |                      |
