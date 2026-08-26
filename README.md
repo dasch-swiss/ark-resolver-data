@@ -12,9 +12,14 @@ Create a branch and do the following:
    `data/dasch_ark_registry_staging.ini` if you want to add a configuration to stage). See example below or
    existing entries for guidance or see https://github.com/dasch-swiss/ark-resolver.
 
-3. Add a new test to the `tests/` directory with the name `test_shortcode.tavern.yaml`. See existing tests for guidance.
+3. Create a new PR.
 
-4. Create a new PR.
+`tests/test_shortcodes.py` picks up every shortcode in `data/dasch_ark_registry.ini`
+automatically, so no per-project test file is needed. It checks that the
+redirect templates resolve without error and that the shortcode is listed in
+`data/shortcodes.md`; it cannot verify that a `Host` or other value is
+actually correct, since it has no source for that other than the INI file
+itself — review the PR diff for that.
 
 ## Example project configuration
 
