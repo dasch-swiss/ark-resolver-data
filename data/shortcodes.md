@@ -1,18 +1,16 @@
 ## Default range - 0000 - 00FF
 
 | shortcode | shortname | longname             | old Salsah ID | notes                                          |
-| --------- | --------- | -------------------- | ------------- | ---------------------------------------------- |
+|-----------|-----------|----------------------|---------------|------------------------------------------------|
 | 0000      |           |                      |               | reserved for default shared ontologies project |
 | FFFF      | system    |                      |               | reserved for default system project            |
 | 0001      | anything  |                      |               | test project für DSP-API                       |
 | 00FF      | images    | demo images ontology |               |                                                |
 
-
-
 ## Lausanne range - 0100 to 07FF
 
 | shortcode | shortname            | longname                                                                                                                               | old Salsah ID | notes |
-| --------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
+|-----------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------------|-------|
 | 0101      | parole-religieuse    | Embarras de la parole religieuse                                                                                                       |               |       |
 | 0102      | scenario-tanner      | Le scénario chez Alain Tanner                                                                                                          |               |       |
 | 0103      | theatre-societe      | Theatre de societe                                                                                                                     |               |       |
@@ -35,12 +33,10 @@
 | 0120      | posepi               | Prendre une position épistémique dans l’interaction. Les marqueurs du savoir, du non-savoir et du doute en français                    |               |       |
 | 0121      | societe-savoie       | Société de cour, élites et finances : de l’Hôtel des princes de Savoie à l’État moderne                                                |               |       |
 
-
-
 ## Basel range - 0800 to 08FF
 
 | shortcode | shortname            | longname                                                                                                                                                                                    | old Salsah ID | notes |
-|-----------|----------------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
+|-----------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------|
 | 0801      | beol                 |                                                                                                                                                                                             |               |       |
 | 0802      | playground           | DSP Playground                                                                                                                                                                              |               |       |
 | 0803      | incunabula           | Bilderfolgen Basler Frühdrucke                                                                                                                                                              | 3             |       |
@@ -129,7 +125,7 @@
 | 0856      | sgb                  | Stadtgeschichte Basel                                                                                                                                                                       |               |       |
 | 0857      | symblight            | Symbolism of Light in Early Christian Sacred Buildings in the Swiss Alpine Valleys                                                                                                          |               |       |
 | 0858      | luminosity           | Luminosity of the East                                                                                                                                                                      |               |       |
-| 0859      | zhdk-smre            | Musikförderung über den Äther (Die Kompositionsaufträge der SRG und ihre Wirkungen auf das Schweizer Musikleben (1931-2021))                                                                |               |       |
+| 0859      | srg-compositions      | Musikförderung über den Äther (Die Kompositionsaufträge der SRG und ihre Wirkungen auf das Schweizer Musikleben (1931-2021))                                                                |               |       |
 | 085A      | atlasdisciplines     | Interactive Historical Atlas of the Disciplines                                                                                                                                             |               |       |
 | 085B      | francavilla          | Francavilla Marittima                                                                                                                                                                       |               |       |
 | 085C      | wiborada             | Edition Wiborada-Viten                                                                                                                                                                      |               |       |
